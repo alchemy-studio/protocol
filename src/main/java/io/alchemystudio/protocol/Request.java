@@ -2,33 +2,24 @@ package io.alchemystudio.protocol;
 
 public class Request {
 
-    private String id;
-    private String timestamp;
-    private String dataType;
+    private Id id;
+    private Time t;
     private Context data;
 
-    public String getId() {
+    public Time getT() {
+        return t;
+    }
+
+    public void setT(Time t) {
+        this.t = t;
+    }
+
+    public Id getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Id id) {
         this.id = id;
-    }
-
-    public String getTimestamp() {
-        return timestamp;
-    }
-
-    public void setTimestamp(String timestamp) {
-        this.timestamp = timestamp;
-    }
-
-    public String getDataType() {
-        return dataType;
-    }
-
-    public void setDataType(String dataType) {
-        this.dataType = dataType;
     }
 
     public Context getData() {

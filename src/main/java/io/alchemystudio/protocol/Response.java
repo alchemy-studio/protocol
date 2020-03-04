@@ -2,6 +2,7 @@ package io.alchemystudio.protocol;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+
 public class Response<T> {
 
     @JsonProperty
@@ -16,6 +17,10 @@ public class Response<T> {
     private Err err;
 
     private Status status;
+
+    private Id id;
+
+    private Time t;
 
     public Response() {
 
