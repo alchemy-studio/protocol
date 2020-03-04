@@ -13,6 +13,8 @@ public class Response<T> {
     @JsonProperty
     private String message;
 
+    private Err err;
+
     public Response() {
 
     }
