@@ -1,5 +1,5 @@
 package io.alchemystudio.protocol;
 
-public interface Api {
+public interface Rpc {
     Response call(Request req);
 }
