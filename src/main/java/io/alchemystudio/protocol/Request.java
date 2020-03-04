@@ -5,7 +5,7 @@ public class Request {
     private String id;
     private String timestamp;
     private String dataType;
-    private String data;
+    private Context data;
 
     public String getId() {
         return id;
@@ -31,11 +31,11 @@ public class Request {
         this.dataType = dataType;
     }
 
-    public String getData() {
+    public Context getData() {
         return data;
     }
 
-    public void setData(String data) {
+    public void setData(Context data) {
         this.data = data;
     }
 }
