@@ -15,6 +15,8 @@ public class Response<T> {
 
     private Err err;
 
+    private Status status;
+
     public Response() {
 
     }
