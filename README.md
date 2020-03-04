@@ -2,6 +2,10 @@
 
 协议模块是为了统一的REST接口：
 
-```
-public Response api(Request req);
+```java
+package io.alchemystudio.protocol;
+
+public interface Api {
+    Response call(Request req);
+}
 ```
