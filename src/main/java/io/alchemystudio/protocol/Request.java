@@ -1,4 +1,6 @@
-public class Protocol {
+package io.alchemystudio.protocol;
+
+public class Request {
 
     private String id;
     private String timestamp;
