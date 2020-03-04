@@ -22,6 +22,60 @@ public class Response<T> {
 
     private Time t;
 
+    private Context context;
+
+    public void setSuccess(boolean success) {
+        this.success = success;
+    }
+
+    public void setResult(T result) {
+        this.result = result;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public Err getErr() {
+        return err;
+    }
+
+    public void setErr(Err err) {
+        this.err = err;
+    }
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
+    }
+
+    public Id getId() {
+        return id;
+    }
+
+    public void setId(Id id) {
+        this.id = id;
+    }
+
+    public Time getT() {
+        return t;
+    }
+
+    public void setT(Time t) {
+        this.t = t;
+    }
+
+    public Context getContext() {
+        return context;
+    }
+
+    public void setContext(Context context) {
+        this.context = context;
+    }
+
     public Response() {
 
     }
