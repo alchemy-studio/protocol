@@ -4,7 +4,7 @@ public class Request {
 
     private Id id;
     private Time t;
-    private Context data;
+    private Context context;
 
     public Time getT() {
         return t;
@@ -22,11 +22,11 @@ public class Request {
         this.id = id;
     }
 
-    public Context getData() {
-        return data;
+    public Context getContext() {
+        return context;
     }
 
-    public void setData(Context data) {
-        this.data = data;
+    public void setContext(Context context) {
+        this.context = context;
     }
 }
