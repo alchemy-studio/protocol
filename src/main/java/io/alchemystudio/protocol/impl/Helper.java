@@ -3,7 +3,7 @@ package io.alchemystudio.protocol.impl;
 import io.alchemystudio.protocol.Context;
 import io.alchemystudio.protocol.Request;
 import io.alchemystudio.protocol.Response;
-import io.alchemystudio.protocol.Service;
+import io.alchemystudio.protocol.spi.Service;
 
 import java.lang.reflect.Method;
 

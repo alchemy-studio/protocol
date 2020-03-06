@@ -1,10 +1,10 @@
 package io.alchemystudio.protocol.impl;
 
-import io.alchemystudio.protocol.Dispatcher;
+import io.alchemystudio.protocol.spi.Dispatcher;
 import io.alchemystudio.protocol.Id;
 import io.alchemystudio.protocol.Request;
 import io.alchemystudio.protocol.Response;
-import io.alchemystudio.protocol.Service;
+import io.alchemystudio.protocol.spi.Service;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
