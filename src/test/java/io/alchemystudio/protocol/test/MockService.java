@@ -2,7 +2,7 @@ package io.alchemystudio.protocol.test;
 
 import io.alchemystudio.protocol.Request;
 import io.alchemystudio.protocol.Response;
-import io.alchemystudio.protocol.Service;
+import io.alchemystudio.protocol.spi.Service;
 
 // 假设这是我们的一个service，这个service不暴露在网络接口上，作为内部的功能单元。
 public class MockService implements Service {

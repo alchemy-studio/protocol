@@ -1,4 +1,7 @@
-package io.alchemystudio.protocol;
+package io.alchemystudio.protocol.spi;
+
+import io.alchemystudio.protocol.Request;
+import io.alchemystudio.protocol.Response;
 
 /**
  * Dispatcher接口，用来接收Rpc接口收进来的Request，并进行解析和内部分发。

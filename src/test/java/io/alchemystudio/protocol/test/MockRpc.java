@@ -1,9 +1,9 @@
 package io.alchemystudio.protocol.test;
 
-import io.alchemystudio.protocol.Dispatcher;
+import io.alchemystudio.protocol.spi.Dispatcher;
 import io.alchemystudio.protocol.Request;
 import io.alchemystudio.protocol.Response;
-import io.alchemystudio.protocol.Rpc;
+import io.alchemystudio.protocol.spi.Rpc;
 
 public class MockRpc implements Rpc {
 

@@ -1,7 +1,6 @@
 package io.alchemystudio.protocol.test;
 
 import io.alchemystudio.protocol.Context;
-import io.alchemystudio.protocol.Dispatcher;
 import io.alchemystudio.protocol.Id;
 import io.alchemystudio.protocol.Request;
 import io.alchemystudio.protocol.Response;
